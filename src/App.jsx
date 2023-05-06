@@ -53,18 +53,18 @@ function App({ dynamicModalButton }) {
 export default App
 
 /*
-- deploy template to github (eku-react-template)
+* deploy template to github (eku-react-template)
 * add readme from thumbnail-app to template
 * vite + react + bootstrap in template (+ eslint + prettier)?
-- make short instructions on how to get started, maybe provide a couple links
 * include something about remote component in app.jsx?
+- make short instructions on how to get started, maybe provide a couple links
 - update style
 
-- fill ice trays
-- call mom
+* fill ice trays
+* call mom
 
 * add avenir font to wrapper
-- head manager in wrapper? how important is this? and is it possible to use the required tags? it is possible to point to public folder
 * change modal header button to dynamic modal button
-- color picker moves slightly when opening modal or sidebar
+* color picker moves slightly when opening modal or sidebar
+* head manager in wrapper? how important is this? and is it possible to use the required tags? it is possible to point to public folder
 */
