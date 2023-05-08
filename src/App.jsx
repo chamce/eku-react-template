@@ -44,7 +44,7 @@ function App({ dynamicModalButton }) {
         Click on the Vite and React logos to learn more
       </p>
       <p className="read-the-docs">
-        Wrapper component is dynamically loaded <a href="https://github.com/Paciolan/remote-component" target="_blank" rel="noreferrer">remotely</a>
+        Wrapper component is loaded <a href="https://github.com/Paciolan/remote-component" target="_blank" rel="noreferrer">remotely</a>
       </p>
     </div>
   )
