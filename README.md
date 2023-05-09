@@ -49,7 +49,7 @@ In this project, you can run the following scripts:
 ## In Depth
 
 - 3 repos
-	- Wrapper
+	- Wrapper (https://github.com/chamce/remote-starter)
 		- Where does chance currently make changes to the wrapper?
 			- Currently, the wrapper repo lives on my machine and I make changes there
 			- It gets pushed to github when I make local updates
@@ -60,12 +60,12 @@ In this project, you can run the following scripts:
 			- Make settings file in root to be changed
 			- Change settings, run `npm run build` in root, and then wrapper cjs file gets updated
 			- Instead of pointing to github location, template will instead point to server wrapper cjs file
-	- Favicons
+	- Favicons (https://github.com/chamce/eku-favicons)
 		- Currently hosted on github
 		- Will move to our server
 		- Instead of using github absolute paths for each icon in wrapper, will change to paths on our server
 			- This will bridge the wrapper and the favicons while keeping them both on the server
-	- Template
+	- Template (https://github.com/chamce/eku-react-template)
 		- Relationship with wrapper
 			- Fetches wrapper from url
 				- Url--where the cjs file is hosted
