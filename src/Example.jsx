@@ -5,7 +5,7 @@ import bootstrapLogo from './assets/bootstrap.svg'
 import eslintLogo from './assets/eslint.svg'
 import prettierLogo from './assets/prettier.svg'
 
-export const Demo = () => {
+export const Example = () => {
     const [count, setCount] = useState(0)
 
     return (
