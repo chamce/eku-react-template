@@ -11,5 +11,5 @@ export default defineConfig({
     outDir: './docs',
     // emptyOutDir: true
   },
-  plugins: [react(), eslint()]
+  plugins: [react(), eslint()],
 });

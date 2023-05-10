@@ -1,53 +1,41 @@
 .logo {
-  height: 5em;
-  /* padding: 1.5em; */
-  will-change: filter;
-  transition: filter 300ms;
+  height: 4em;
 }
 
-@media (max-width: 575.98px) {
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
   .logo {
-    height: 4em;
+    height: 5em;
   }
 }
 
-.logo.vite:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-.logo.bootstrap:hover {
-  filter: drop-shadow(0 0 2em #712cf9aa);
-}
-
-.logo.eslint:hover {
-  filter: drop-shadow(0 0 2em #4b32c3aa);
-}
-
-.logo.prettier:hover {
-  filter: drop-shadow(0 0 2em #f8bc45aa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .logo {
+    height: 6em;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.hover-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
-.btn-shadow {
+.hover-bounce-in:hover,
+.hover-bounce-in:focus,
+.hover-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.button-shadow {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
