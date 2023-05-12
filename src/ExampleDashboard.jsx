@@ -40,7 +40,7 @@ export const ExampleDashboard = () => {
         <div className='text-center'>
           <button
             type='button'
-            className='btn btn-light btn-solid fs-5'
+            className='btn btn-light btn-solid border-dark fs-5'
             onClick={() => setCount((count) => count + 1)}
           >
             Count is {count}
